@@ -252,27 +252,28 @@
             <div class="flex">
                 <div class="bg-white w-1/2 m-5 p-5 rounded-xl shadow-xl"> <!-- contact form -->
                     <h2 class="font-bold text-2xl p-5">Request a Quote Today!</h2>
-                    <form action="" class="p-5">
-                        <label for="Name" class="m-2 text-lg">Full Name</label>
-                        <br>
-                        <input type="text" name="Name" class="m-2 py-2 w-full border-1 border-gray-300 rounded">
-                        <br>
-                        <label for="Email" class="m-2 text-lg">Email Address</label>
-                        <br>
-                        <input type="email" name="Email" class="m-2 py-2 w-full border-1 border-gray-300 rounded">
-                        <br>
-                        <label for="Company Name" class="m-2 text-lg">Company Name</label>
-                        <br>
-                        <input type="text" name="Company Name" class="m-2 py-2 w-full border-1 border-gray-300 rounded">
-                        <br>
-                        <label for="Your Message" class="m-2 text-lg">Your Message</label>
-                        <br>
-                        <textarea name="Your Message"
-                            class="m-2 py-2 w-full border-1 border-gray-300 rounded"></textarea>
-                        <br>
-                        <input type="submit" value="Submit Request"
-                            class="m-2 w-full bg-orange-500 text-white py-3 rounded-xl hover:bg-orange-600">
-                    </form>
+                    <form action="https://api.web3forms.com/submit" method="POST" class="p-5">
+
+                    <input type="hidden" name="access_key" value="1c910b21-9ea9-42c0-9139-ed6aaddd4d85">
+                    <label for="Name" class="m-2 text-lg">Full Name</label>
+                    <br>
+                    <input type="text" name="Name" class="m-2 py-2 w-full border-1 border-gray-300 rounded">
+                    <br>
+                    <label for="Email" class="m-2 text-lg">Email Address</label>
+                    <br>
+                    <input type="email" name="Email" class="m-2 py-2 w-full border-1 border-gray-300 rounded">
+                    <br>
+                    <label for="Company Name" class="m-2 text-lg">Company Name</label>
+                    <br>
+                    <input type="text" name="Company Name" class="m-2 py-2 w-full border-1 border-gray-300 rounded">
+                    <br>
+                    <label for="Your Message" class="m-2 text-lg">Your Message</label>
+                    <br>
+                    <textarea name="Your Message" class="m-2 py-2 w-full border-1 border-gray-300 rounded"></textarea>
+                    <br>
+                    <input type="submit" value="Submit Request"
+                        class="m-2 w-full bg-orange-500 text-white py-3 rounded-xl hover:bg-orange-600">
+                </form>
 
                 </div>
                 <div class="m-5 ">
